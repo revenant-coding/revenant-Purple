@@ -1,0 +1,21 @@
+{
+    "name": "revenant",
+    "displayName": "revenant - Theme",
+    "description": "purple theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "revenant - Purple",
+                "uiTheme": "vs-dark",
+                "path": "./themes/revenant-color-theme.json"
+            }
+        ]
+    }
+}
